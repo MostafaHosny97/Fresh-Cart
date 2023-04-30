@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+body{
+  font-family: 'Montserrat Alternates', cursive;
+  background-image: url(./Images/light-patten.svg);
+}
+
+nav,footer,.cart-customize,.brand-item{
+  background-color: #eee;
+}
+
+.cursol{
+  cursor: pointer;
+}
+
+footer img{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.cart-customize .btn{
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.cart-customize:hover .btn{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cart-customize:hover{
+  box-shadow: 15px 15px 15px lightblue !important;
+}
+
+.brand-item:hover{
+  box-shadow: 15px 15px 15px lightblue !important;
+}
+
+.bg-main {
+  background-color: #0AAD0A !important;
+}
+
+.text-main{
+  color: #0AAD0A !important;
+}
+
+.star-main{
+  color: #ffc908 !important;
+}
+
+.numCustomize{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.wishCustomize{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.fa-regular,.fa-solid{
+  cursor: pointer !important;
+}
+
+.fa-regular:hover{
+  color: #dc3545 !important;
+  
+}
+
+.orderPayment{
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(54, 187, 112);
+}
+
+.order{
+  border: 2px solid rgb(54, 187, 112);
+}
+
+.forgetPass:hover{
+  color: #198754 !important;
+  font-weight: 700;
+}
+
+.signIn:hover{
+  color: #198754 !important;
+  font-weight: 700;
+}
+
+.fa-eye{
+  cursor: pointer;
+  color: #198754 !important;
+}
+
+.nav-link:hover{
+  color: #198754 !important;
+  font-weight: 800;
+}
+
+
+

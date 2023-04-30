@@ -1,5 +1,5 @@
 {
-  "homepage": "https://MostafaHosny97.github.io/Freshstore",
+  "homepage": "https://MostafaHosny97.github.io/Fresh-Store",
   "name": "e-commerce-app",
   "version": "0.1.0",
   "private": true,
@@ -27,6 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

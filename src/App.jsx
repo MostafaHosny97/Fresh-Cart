@@ -54,11 +54,9 @@ export default function App() {
       },[]);
 
   const router = createBrowserRouter([
-    {
-      path: "",
-      element: <Layout crrUser={crrUser} clearUserData={clearUserData} /> ,
+    { path: "/", element: <Layout crrUser={crrUser} clearUserData={clearUserData} /> ,
       children: [
-        {  index:true , element: <Home /> },
+        { index:true,element: <Home /> },
     { path: "home", element:  <Home />  },
         { path: "brandproducts/:id", element: <BrandProducts/> },
         { path: "categoryproducts/:id", element: <CategoryProducts/> },

@@ -1,7 +1,7 @@
 {
-  "homepage": "https://MostafaHosny97.github.io/Fresh-Store",
   "name": "e-commerce-app",
   "version": "0.1.0",
+  "homepage": "https://MostafaHosny97.github.io/Fresh-Cart",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",

@@ -57,7 +57,8 @@ export default function App() {
     { path: "/", element: <Layout crrUser={crrUser} clearUserData={clearUserData} /> ,
       children: [
         { index:true,element: <Home /> },
-    { path: "home", element:  <Home />  },
+        { path: "home", element:  <Home />  },
+        { path: "Fresh-Cart", element:  <Home />  },
         { path: "brandproducts/:id", element: <BrandProducts/> },
         { path: "categoryproducts/:id", element: <CategoryProducts/> },
         { path: "cart", element: <ProtectRoute><Cart crrUser={crrUser}/> </ProtectRoute>  },

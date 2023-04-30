@@ -58,7 +58,7 @@ export default function App() {
       path: "",
       element: <Layout crrUser={crrUser} clearUserData={clearUserData} /> ,
       children: [
-        { path: "", element: <Home /> },
+        {  index:true , element: <Home /> },
     { path: "home", element:  <Home />  },
         { path: "brandproducts/:id", element: <BrandProducts/> },
         { path: "categoryproducts/:id", element: <CategoryProducts/> },
